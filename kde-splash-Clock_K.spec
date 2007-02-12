@@ -2,7 +2,7 @@
 %define		_splash		Clock_K
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	0.3
 Release:	2
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Your KDE may now start ticking :) Splash with clock made of KDE logo.
 
-%description -l pl
-Twoje KDE mo¿e teraz zacz±æ tykaæ :) Ekran startowy z logo KDE
+%description -l pl.UTF-8
+Twoje KDE moÅ¼e teraz zaczÄ…Ä‡ tykaÄ‡ :) Ekran startowy z logo KDE
 przerobionym na zegarek.
 
 %prep
